@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
         pokemonTcgDiv.innerHTML = '<h3 class="text-xl font-semibold mb-2">Trading Cards</h3>';
         data.data.forEach(card => {
           const cardImg = document.createElement('img');
-                    cardImg.src = card.images.small;
+          cardImg.src = card.images.small;
           cardImg.alt = card.name;
           cardImg.classList.add('w-24', 'h-32', 'inline-block', 'm-2', 'rounded');
           pokemonTcgDiv.appendChild(cardImg);
@@ -239,4 +239,3 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   });
 });
-
