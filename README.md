@@ -1,4 +1,3 @@
-```md
 # Interactive Pokedex
 
 An interactive Pokedex application built with HTML, Tailwind CSS, and JavaScript. This project integrates various Pokémon APIs to provide a comprehensive and interactive experience for Pokémon enthusiasts.
