@@ -14,14 +14,14 @@
     "tailwindcss": "^2.2.19",
     "web-vitals": "^2.1.4"
   },
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "eslint": {
     "extends": "eslint:recommended",
     "rules": {
@@ -63,6 +63,7 @@
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.4.2",
     "eslint-plugin-jsx-a11y": "^6.8.0",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0",
     "postcss-preset-env": "^9.5.14"
